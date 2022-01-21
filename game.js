@@ -15,7 +15,7 @@ const gameBoard = document.querySelector("#game-board");
 
 function main(currentTime){
 	if(gameOver){
-		return alert('YOY LOSE HA HA HA HA HA HA HA HA')
+		return alert('YOY LOSE')
 	}
     
 	window.requestAnimationFrame(main);
